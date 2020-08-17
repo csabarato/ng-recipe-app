@@ -16,8 +16,8 @@
         <a class="dropdown-toggle" role="button">Manage<span class="caret"  style="cursor: pointer"></span></a>
 
         <ul class="dropdown-menu">
-          <li> <a style="cursor: pointer"> Save data</a></li>
-          <li> <a style="cursor: pointer"> Fetch data</a></li>
+          <li> <a style="cursor: pointer" (click)="onSaveRecipes()"> Save recipes</a></li>
+          <li> <a style="cursor: pointer" (click)="onFetchRecipes()"> Fetch recipes</a></li>
         </ul>
       </li>
     </ul>

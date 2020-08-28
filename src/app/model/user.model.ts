@@ -10,7 +10,7 @@ export class UserModel {
     if (!this._tokenExpDate || new Date() > this._tokenExpDate) {
       return null;
     }
-    return this.token;
+    return this._token;
   }
 
 
